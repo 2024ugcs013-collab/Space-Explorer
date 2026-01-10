@@ -1,0 +1,29 @@
+.navbar {
+  position: sticky;   /* MAGIC */
+  top: 0;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(8px);
+}
+
+.nav-left button,
+.nav-right button {
+  margin: 0 6px;
+  padding: 8px 16px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.nav-left button:hover,
+.nav-right button:hover {
+  background: white;
+  color: black;
+}
